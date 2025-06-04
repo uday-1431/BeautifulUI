@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Beautiful UI Landing Page</title>
+  <style>
+    /* Reset & base */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #555;
+    }
+
+    .container {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      max-width: 500px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .card h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .card p {
+      margin-bottom: 2rem;
+    }
+
+    .btn {
+      padding: 0.75rem 1.5rem;
+      background-color: #4f9eea;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #357ac9;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+      .card h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Beautiful UI</h1>
+    <p>A simple, clean, responsive landing page in one file.</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>Crafted with Love</h2>
+      <p>This is a demo of a single-page HTML+CSS layout. No frameworks, no fuss.</p>
+      <button class="btn">Get Started</button>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Your Brand. All rights reserved.
+  </footer>
+
+</body>
+</html>
