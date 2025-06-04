@@ -173,3 +173,58 @@
 
 </body>
 </html>
+  
+    /* Fix: Add missing .btn styles */
+    .btn {
+      margin-top: 1.2rem;
+      padding: 0.7rem 2.2rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #fff;
+      background: linear-gradient(90deg, #4f9eea 0%, #a1c4fd 100%);
+      border: none;
+      border-radius: 30px;
+      box-shadow: 0 2px 8px rgba(79,158,234,0.13);
+      cursor: pointer;
+      transition: background 0.2s, transform 0.2s;
+      outline: none;
+    }
+    .btn:hover {
+      background: linear-gradient(90deg, #a1c4fd 0%, #4f9eea 100%);
+      transform: translateY(-2px) scale(1.04);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Beautiful UI</h1>
+    <p>A simple, clean, responsive landing page in one file.</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Avatar" class="avatar" />
+      <div class="socials">
+        <a href="#" title="Twitter" aria-label="Twitter"><svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557a9.93 9.93 0 0 1-2.828.775 4.932 4.932 0 0 0 2.165-2.724c-.951.564-2.005.974-3.127 1.195A4.92 4.92 0 0 0 16.616 3c-2.73 0-4.942 2.21-4.942 4.932 0 .386.045.763.127 1.124C7.728 8.807 4.1 6.884 1.671 3.965c-.423.722-.666 1.561-.666 2.475 0 1.708.87 3.216 2.188 4.099a4.904 4.904 0 0 1-2.237-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.936 4.936 0 0 1-2.224.084c.627 1.956 2.444 3.377 4.6 3.417A9.867 9.867 0 0 1 0 21.543a13.94 13.94 0 0 0 7.548 2.209c9.057 0 14.009-7.496 14.009-13.986 0-.213-.005-.425-.014-.636A9.936 9.936 0 0 0 24 4.557z"/></svg></a>
+        <a href="#" title="LinkedIn" aria-label="LinkedIn"><svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm15.5 11.268h-3v-5.604c0-1.337-.025-3.063-1.868-3.063-1.868 0-2.154 1.459-2.154 2.967v5.7h-3v-10h2.881v1.367h.041c.401-.761 1.381-1.563 2.844-1.563 3.042 0 3.604 2.003 3.604 4.605v5.591z"/></svg></a>
+        <a href="#" title="GitHub" aria-label="GitHub"><svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.084-.729.084-.729 1.205.084 1.84 1.236 1.84 1.236 1.07 1.834 2.809 1.304 3.495.997.108-.775.418-1.305.762-1.605-2.665-.305-5.466-1.334-5.466-5.931 0-1.31.469-2.381 1.236-3.221-.124-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.301 1.23a11.52 11.52 0 0 1 3.003-.404c1.018.005 2.045.138 3.003.404 2.291-1.553 3.297-1.23 3.297-1.23.653 1.653.242 2.873.119 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.803 5.624-5.475 5.921.43.372.823 1.102.823 2.222 0 1.606-.014 2.898-.014 3.293 0 .322.216.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+      </div>
+      <h2>Crafted with Love</h2>
+      <p>This is a demo of a single-page HTML+CSS layout. No frameworks, no fuss.</p>
+      <button class="btn">Get Started</button>
+    </div>
+  </div>
+
+  <div class="about-section">
+    <h3>About This Page</h3>
+    <p>This landing page is designed to be visually appealing and easy to use. It features a beautiful animated gradient background, a profile avatar, interactive social icons, and smooth card animations. Perfect for personal portfolios, product launches, or simple web presentations.</p>
+  </div>
+
+  <footer>
+    &copy; 2025 Your Brand. All rights reserved.
+  </footer>
+
+</body>
+</html>
+
